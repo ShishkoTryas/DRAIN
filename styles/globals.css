@@ -20,3 +20,11 @@ body {
   color: #e7e8e8;
   background: #070707;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Это сделает контейнер по высоте равным высоте окна */
+  flex-direction: column; /* Это сделает элементы в контейнере вертикально выровненными */
+}
